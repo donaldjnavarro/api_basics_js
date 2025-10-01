@@ -12,8 +12,8 @@ const query = `
 `;
 
 try {
-  const data = await client.query(query, { code: "US" });
-  console.log("Country:", data.data.country);
+  const response = await client.query(query, { code: "US" });
+  console.log("GraphQL response response.data.country:", response.data.country);
 } catch (err) {
   console.error(err.message);
 }
