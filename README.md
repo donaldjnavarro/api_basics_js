@@ -9,4 +9,4 @@ Currently includes:
 
 Mostly designed as a snippet repository. To verify the examples you can run 
 
-> node examples/<filename>
+> node examples/{filename}
